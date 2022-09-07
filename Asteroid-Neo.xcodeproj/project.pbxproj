@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8432E6C028C8552D003555F0 /* SelectDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8432E6BE28C8552D003555F0 /* SelectDateVC.swift */; };
+		8432E6C128C8552D003555F0 /* SelectDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8432E6BF28C8552D003555F0 /* SelectDateVC.xib */; };
+		8432E6C328C88260003555F0 /* feedAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = 8432E6C228C88260003555F0 /* feedAPI.json */; };
+		8490A60928C7508600C6AD78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490A60828C7508600C6AD78 /* AppDelegate.swift */; };
+		8490A60B28C7508600C6AD78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490A60A28C7508600C6AD78 /* SceneDelegate.swift */; };
+		8490A61028C7508600C6AD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490A60E28C7508600C6AD78 /* Main.storyboard */; };
+		8490A61228C7508C00C6AD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8490A61128C7508C00C6AD78 /* Assets.xcassets */; };
+		8490A61528C7508C00C6AD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490A61328C7508C00C6AD78 /* LaunchScreen.storyboard */; };
+		8490A61E28C7586800C6AD78 /* HttpRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490A61D28C7586800C6AD78 /* HttpRequestHelper.swift */; };
+		8490A62428C7592800C6AD78 /* NeoWs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490A62328C7592800C6AD78 /* NeoWs.swift */; };
+		8490A62728C759A800C6AD78 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490A62628C759A800C6AD78 /* Earth.swift */; };
+		8490A62928C761A900C6AD78 /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490A62828C761A900C6AD78 /* ChartViewModel.swift */; };
+		8490A62B28C761C900C6AD78 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490A62A28C761C900C6AD78 /* ChartViewController.swift */; };
+		8490A62E28C76ECD00C6AD78 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 8490A62D28C76ECD00C6AD78 /* Charts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8432E6BE28C8552D003555F0 /* SelectDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateVC.swift; sourceTree = "<group>"; };
+		8432E6BF28C8552D003555F0 /* SelectDateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectDateVC.xib; sourceTree = "<group>"; };
+		8432E6C228C88260003555F0 /* feedAPI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = feedAPI.json; sourceTree = "<group>"; };
+		8490A60528C7508600C6AD78 /* Asteroid-Neo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asteroid-Neo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8490A60828C7508600C6AD78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8490A60A28C7508600C6AD78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8490A60F28C7508600C6AD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8490A61128C7508C00C6AD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8490A61428C7508C00C6AD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8490A61628C7508C00C6AD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8490A61D28C7586800C6AD78 /* HttpRequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestHelper.swift; sourceTree = "<group>"; };
+		8490A62328C7592800C6AD78 /* NeoWs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoWs.swift; sourceTree = "<group>"; };
+		8490A62628C759A800C6AD78 /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
+		8490A62828C761A900C6AD78 /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
+		8490A62A28C761C900C6AD78 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8490A60228C7508600C6AD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490A62E28C76ECD00C6AD78 /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842EE8AD28C8C68400CEB55C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8490A62828C761A900C6AD78 /* ChartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8432E6B928C85481003555F0 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8432E6BE28C8552D003555F0 /* SelectDateVC.swift */,
+				8432E6BF28C8552D003555F0 /* SelectDateVC.xib */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		8490A5FC28C7508600C6AD78 = {
+			isa = PBXGroup;
+			children = (
+				8490A60728C7508600C6AD78 /* Asteroid-Neo */,
+				8490A60628C7508600C6AD78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8490A60628C7508600C6AD78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8490A60528C7508600C6AD78 /* Asteroid-Neo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8490A60728C7508600C6AD78 /* Asteroid-Neo */ = {
+			isa = PBXGroup;
+			children = (
+				8490A61C28C7586000C6AD78 /* Helper */,
+				8490A62028C7587B00C6AD78 /* Service */,
+				8490A62128C7588F00C6AD78 /* Screens */,
+				8490A60828C7508600C6AD78 /* AppDelegate.swift */,
+				8490A60A28C7508600C6AD78 /* SceneDelegate.swift */,
+				8432E6C228C88260003555F0 /* feedAPI.json */,
+				8490A60E28C7508600C6AD78 /* Main.storyboard */,
+				8490A61128C7508C00C6AD78 /* Assets.xcassets */,
+				8490A61328C7508C00C6AD78 /* LaunchScreen.storyboard */,
+				8490A61628C7508C00C6AD78 /* Info.plist */,
+			);
+			path = "Asteroid-Neo";
+			sourceTree = "<group>";
+		};
+		8490A61C28C7586000C6AD78 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8490A61D28C7586800C6AD78 /* HttpRequestHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8490A62028C7587B00C6AD78 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8490A62328C7592800C6AD78 /* NeoWs.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8490A62128C7588F00C6AD78 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8432E6B928C85481003555F0 /* DatePicker */,
+				8490A62528C7599300C6AD78 /* Model */,
+				8490A62228C758AD00C6AD78 /* Chart */,
+				842EE8AD28C8C68400CEB55C /* ViewModel */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8490A62228C758AD00C6AD78 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				8490A62A28C761C900C6AD78 /* ChartViewController.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		8490A62528C7599300C6AD78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8490A62628C759A800C6AD78 /* Earth.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8490A60428C7508600C6AD78 /* Asteroid-Neo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8490A61928C7508C00C6AD78 /* Build configuration list for PBXNativeTarget "Asteroid-Neo" */;
+			buildPhases = (
+				8490A60128C7508600C6AD78 /* Sources */,
+				8490A60228C7508600C6AD78 /* Frameworks */,
+				8490A60328C7508600C6AD78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asteroid-Neo";
+			packageProductDependencies = (
+				8490A62D28C76ECD00C6AD78 /* Charts */,
+			);
+			productName = "Asteroid-Neo";
+			productReference = 8490A60528C7508600C6AD78 /* Asteroid-Neo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8490A5FD28C7508600C6AD78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8490A60428C7508600C6AD78 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8490A60028C7508600C6AD78 /* Build configuration list for PBXProject "Asteroid-Neo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8490A5FC28C7508600C6AD78;
+			packageReferences = (
+				8490A62C28C76ECD00C6AD78 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = 8490A60628C7508600C6AD78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8490A60428C7508600C6AD78 /* Asteroid-Neo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8490A60328C7508600C6AD78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8432E6C128C8552D003555F0 /* SelectDateVC.xib in Resources */,
+				8490A61528C7508C00C6AD78 /* LaunchScreen.storyboard in Resources */,
+				8490A61228C7508C00C6AD78 /* Assets.xcassets in Resources */,
+				8490A61028C7508600C6AD78 /* Main.storyboard in Resources */,
+				8432E6C328C88260003555F0 /* feedAPI.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8490A60128C7508600C6AD78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8490A62428C7592800C6AD78 /* NeoWs.swift in Sources */,
+				8490A62728C759A800C6AD78 /* Earth.swift in Sources */,
+				8490A60928C7508600C6AD78 /* AppDelegate.swift in Sources */,
+				8490A60B28C7508600C6AD78 /* SceneDelegate.swift in Sources */,
+				8432E6C028C8552D003555F0 /* SelectDateVC.swift in Sources */,
+				8490A62B28C761C900C6AD78 /* ChartViewController.swift in Sources */,
+				8490A61E28C7586800C6AD78 /* HttpRequestHelper.swift in Sources */,
+				8490A62928C761A900C6AD78 /* ChartViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8490A60E28C7508600C6AD78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8490A60F28C7508600C6AD78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8490A61328C7508C00C6AD78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8490A61428C7508C00C6AD78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8490A61728C7508C00C6AD78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8490A61828C7508C00C6AD78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8490A61A28C7508C00C6AD78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Asteroid-Neo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admin.Asteroid-Neo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8490A61B28C7508C00C6AD78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Asteroid-Neo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admin.Asteroid-Neo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8490A60028C7508600C6AD78 /* Build configuration list for PBXProject "Asteroid-Neo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490A61728C7508C00C6AD78 /* Debug */,
+				8490A61828C7508C00C6AD78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8490A61928C7508C00C6AD78 /* Build configuration list for PBXNativeTarget "Asteroid-Neo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8490A61A28C7508C00C6AD78 /* Debug */,
+				8490A61B28C7508C00C6AD78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8490A62C28C76ECD00C6AD78 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8490A62D28C76ECD00C6AD78 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8490A62C28C76ECD00C6AD78 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8490A5FD28C7508600C6AD78 /* Project object */;
+}
